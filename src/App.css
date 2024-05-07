@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    /* margin-top: 0rem; */
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  .movie {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .details {
+    padding: 20px;
+  }
+  
+  .details h2 {
+    margin-top: 0;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
